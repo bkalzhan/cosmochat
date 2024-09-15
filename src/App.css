@@ -36,3 +36,54 @@
     transform: rotate(360deg);
   }
 }
+
+.app-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.sessions-list {
+  width: 30%;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-right: 1px solid #ccc;
+}
+
+.sessions-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sessions-list ul li {
+  cursor: pointer;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #e0e0e0;
+  border-radius: 4px;
+}
+
+.sessions-list ul li:hover {
+  background-color: #d0d0d0;
+}
+
+.sessions-list button {
+  margin-top: 20px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.chat-container {
+  width: 70%;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; */
+}
+
+.no-session-selected {
+  text-align: center;
+  font-size: 24px;
+  color: #777;
+}
+
